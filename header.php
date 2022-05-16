@@ -5,8 +5,7 @@
      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
      <meta property="og:image" content="<?php echo esc_url($featured_img_url); ?>" />
-     <meta name="author" content="Wolfactive - HuyNguyen - PhuongNam">
-     <link rel="shortcut icon" type="image/png" href="<?php echo esc_url($featured_img_url); ?>"/>
+     <meta name="author" content="PhuongNam">
   	 <link rel="profile" href="https://wolfactive.net/">
      <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
      <?php wp_head(); ?>

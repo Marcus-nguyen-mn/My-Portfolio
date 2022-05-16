@@ -1,1 +1,0 @@
-(()=>{for(var o="",a=0,l=["BMW","Volvo","Mini"];a<l.length;a++)o+=l[a]+"<br>";console.log(o),console.log("aaaaaaa")})();

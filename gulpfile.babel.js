@@ -27,7 +27,7 @@ export const scripts = () => {
 .pipe(gulp.dest('./assets/js/')) }
 export const serve = (done) => { 
   server.init({ 
-     proxy: 'http://localhost/create-base/', 
+     proxy: 'http://my-portfo.co/', 
    // put your local website link here 
    }) 
    done() 
@@ -35,7 +35,7 @@ export const serve = (done) => {
  export const reload = (done) => { server.reload()
    done() }
  export const watchForChanges = () => { 
-  watch('./src/scss/**/*.scss', style) 
+  watch('./src/sass/**/*.scss',series(style, reload)) 
   watch(['./src/js/**/*.js'], series(scripts, reload)) 
   watch('**/*.php', reload) }
 export const dev = series(
