@@ -1,0 +1,30 @@
+npm init
+npm install --global gulp-cli
+npm install --save-dev gulp
+gulp --version
+
+var gulp = require('gulp');
+gulp.task('hello', function() {
+  console.log('First Task');
+})
+
+gulp hello
+
+////    Using ES6 in the Gulpfile
+
+npm install --save-dev @babel/register @babel/preset-env @babel/core
+npm install --save-dev babel
+
+create file babel.config.json
+{
+  "presets": ["@babel/preset-env"]
+}
+
+
+npm install sass gulp-sass --save-dev
+
+config minify css
+
+
+npm install --save-dev webpack-stream
+import webpack from 'webpack-stream'

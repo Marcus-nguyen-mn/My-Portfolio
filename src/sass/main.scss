@@ -1,0 +1,89 @@
+/*
+Create date: 18/01/2020
+Design by Canvilled.
+*/
+/*-----======Setup Color And Text======------*/
+:root{
+	--primary-bg-color: #0b54ba;
+	--secondary-bg-color:#fff;
+  --primary-color: #0b54ba;
+	--secondary-color:#000;
+	--title-section-size:36px;
+	--title-item-size:20px;
+	--primary-padding: 10px;
+	--secondary-padding: 20px;
+}
+/*-----======Setup Color And Text======------*/
+
+/*-----=======Setup Font and main CSS======-----*/
+@font-face {
+    font-family: UTM-FACEBOOK;
+	font-weight:400;
+    src: url("../fonts/UTM-FACEBOOKR-K&T_0.TTF");
+}
+
+@font-face {
+    font-family: Lora;
+    src: url("../fonts/Lora-VariableFont_wght.ttf");
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+	box-sizing: border-box
+}
+
+body{
+	font-size:15px;
+	font-weight:500;
+	line-height:1.5;
+	color:#333;
+	font-family: Lora;
+}
+/* body.home{
+	font-family: UTM-FACEBOOK;
+} */
+::selection {
+    background-color: var(--primary-bg-color);
+    color: #fff;
+}
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background:var(--primary-bg-color);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: var(--primary-bg-color);
+}
+
+img{
+	width:100%;
+	height:auto;
+	display: block;
+}
+.container{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.clear{
+	clear:both;
+}
+
+.a{
+    background-color: aqua;
+    .s{
+        color: white;
+    }
+}
