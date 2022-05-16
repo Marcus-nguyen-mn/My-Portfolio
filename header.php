@@ -11,7 +11,6 @@
      <?php wp_head(); ?>
 </head>
 <body <?php body_class(); ?>>
-This is header
 <?php
   //   wp_nav_menu(array(
   // 'theme_location' => 'headerMenuLocation' ));
